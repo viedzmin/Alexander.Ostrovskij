@@ -28,3 +28,8 @@ The first value of any given line is a character. The second value is the number
 * Installation (if needed) and running instructions in README.md
 * Tests
 * Information about spent time
+
+AO------------------------------
+Insatllation assumes that target machine has JRE 8 and mvn installed.
+To run the app on linux machine type in a cloned repo folder:
+mvn package && java -jar ./target/AlexanderOstrovskij-1.0.jar
