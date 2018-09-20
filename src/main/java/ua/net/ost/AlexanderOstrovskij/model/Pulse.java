@@ -13,9 +13,6 @@ public class Pulse {
                 return outputValue;
             }
 
-            public void setOutputValue(String outputValue) {
-                this.outputValue = outputValue;
-            }
         }
 
         PulseContent pulse;
@@ -24,7 +21,4 @@ public class Pulse {
         return pulse;
     }
 
-    public void setPulse(PulseContent pulse) {
-        this.pulse = pulse;
-    }
 }

@@ -25,7 +25,7 @@ public class StringCalculatorTest {
         String value = testClass.calculate(null);
         assertEquals("",value );
     }
-
+    @Test
     public void calculate_TestEmptyInput() {
         String value = testClass.calculate("");
         assertEquals("",value );
